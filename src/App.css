@@ -1,33 +1,74 @@
-.App {
+
+
+body{
+  background: #dd3e54;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6be585, #dd3e54);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6be585, #dd3e54); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.card-1 {
+  background: #fff;
+  border-radius: 2px;
+  height: 600px;
+  width: 600px;
+  margin: auto;
+  margin-top: 70px; 
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-1 .nav{
+  background-color: #bd3446b2;
+  height: 50px;
+  opacity: 0.86;
+  
+
+}
+
+.card-1 .nav h4{
+text-align: center;
+padding: 10px;
+color: #6be585;
+font-size: 22px
+}
+.list{
+  background: #6be585;  /* fallback for old browsers */
+  height: 550px;
+  padding-top: 2px;
+  opacity: 0.8;
+}
+.list h1{
   text-align: center;
+  font-size: 25px;
+  color: #FF0080;
+  opacity: 0.8;
+}
+input{
+ position: relative;
+ left: 24%;
+ width: 320px;
+
+}
+.todolist{
+  list-style-type: none;
+    
+}
+li{
+opacity: 0.8;
+width: 380px;
+height: 30px;
+position: relative;
+right: -60px;
+padding-right: 20px;
+background: #dd3e54;
+
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+a {
+  position: absolute;
+  right: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
